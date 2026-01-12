@@ -14,8 +14,8 @@ env:
   AZURE_WEBAPP_NAME: JDLAB
   AZURE_WEBAPP_PACKAGE_PATH: './JDLAB/publish'
   DOTNET_VERSION: '8.x'
-  SOLUTION_PATH: 'JDLAB.sln'
-  API_PROJECT_PATH: 'StockTest'
+  SOLUTION_PATH: './JDLAB/JDLAB.sln'
+  API_PROJECT_PATH: './JDLAB/StockTest'
 
 # Define the separate jobs that make up this workflow
 jobs:
